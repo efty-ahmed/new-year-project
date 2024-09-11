@@ -5,9 +5,14 @@
 }
 
 .header__info{
-  text-align: center;
-  color: #FFFFFF;
- 
+
+  
+
+
+}
+
+.npc{
+  font-size: 30px;
 }
 .header_tytle{
   background-image: url('../resorce/images/Banner\ Image.png');
@@ -19,6 +24,13 @@ display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  text-align: center;
+
+
 }
 /* ===========>offer section=========> */
 .offer{
@@ -50,5 +62,43 @@ font-weight: bolder;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+ 
+}
+/* ===========> mid work */
+.welcome_container{
+  background-image: url('../resorce/images/Vectorrr.png');
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+.welcome_container{
+  display: flex;
+  gap: 90px;
+}
+.group_photo{
+  height: 440px;
+  width: 300px;
+}
+.welcome_anounc{
+  color: #FFFFFF;
+  
+}
+.font_common_style{
+  font-weight: 900;
+  font-size: 60px;
+}
+.Welcome_discription{
+  color: rgba(255, 255, 255, 0.651)
+}
+.join{
+  margin: 50px auto;
+  font-weight: 700;
+  font-size: 20px;
 }
