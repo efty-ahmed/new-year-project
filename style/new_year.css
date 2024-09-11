@@ -23,7 +23,7 @@ width: 800px;
 display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  /* width: 50%; */
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -101,4 +101,118 @@ font-weight: bolder;
   margin: 50px auto;
   font-weight: 700;
   font-size: 20px;
+}
+/* date and time */
+.date_time{
+  background-color: #c7b6b686;
+  background-position: top center;
+  
+  height: 200px;
+width: 1000px;
+
+  margin-left: auto;
+  margin-right: auto;
+ 
+  text-align: center;
+
+}
+div > .date_time_text{
+  font-size: 26px;
+ font-weight: 600;
+  padding: 40px ;
+  /* margin-bottom: 20px; */
+  
+}
+.common_color{
+  color: #FF0000;
+}
+.button{
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border: 0cap;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.o1{
+  color: #FF0000;
+  margin-bottom: 20px;
+  font-weight: 670;
+}
+.o2{
+  color: #070211;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.o3{
+  color: #1a11119f;
+}
+.round_img{
+  border: 10px solid red;
+  border-radius: 70px;
+  height:250px;
+}
+.red_year{
+  color: #FF0000;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+
+}
+.information{
+  color: #070211a2;
+}
+.next_year_offer_info{
+  display: flex;
+  align-items: center;
+  margin: 40px 50px 0px 100px;
+  gap: 90px;
+  margin-bottom: 100px;
+
+}
+/* funtional work */
+.sale{
+  font-size: 40px;
+  font-weight: 900;
+}
+.funtional_container{
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+  
+
+}
+.what_functional{
+color: #070211;
+}
+.holiday_color{
+color: #FF0000;
+}
+.funtion_discription{
+color: #0702119c;
+}
+/* box decoretion */
+.box_img{
+  height: 300px;
+  width: 400px;
+  margin-top: 30px;
+}
+.box_img_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background-image: url('../resorce/images/Rectangle\ 2.png');
+  
+ margin: 10% ;
+
+  
+}
+.round_img_44{
+  /* width: 15%;
+ height: 15%; */
+ 
+ 
+ 
 }
